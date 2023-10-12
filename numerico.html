@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmos de Cifrado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="cesar.html">Cifrado Cesar</a>
+        <a href="simbolo.html">Cifrado Símbolos</a>
+        <a href="numerico.html">Cifrado Numérico</a>
+    </nav>
+
+    <div class="formulario"> 
+        <h1>Cifrado Numérico</h1>
+    
+        <form id="cifradoForm">
+            <label for="texto">Texto:</label>
+            <input type="text" id="texto" name="texto" required><br><br>
+
+            <label>Acción:</label>
+            <input type="radio" id="cifrar" name="accion" value="c" required>
+            <label for="cifrar">Cifrar</label>
+
+            <input type="radio" id="descifrar" name="accion" value="d" required>
+            <label for="descifrar">Descifrar</label><br><br>
+
+
+            <button type="submit">Obtener</button>
+        </form>
+
+        <label for="resultado">Resultado:</label>
+        <textarea id="resultado" rows="4" cols="50" readonly></textarea>
+    </div>
+
+    <script src=""></script>
+</body>
+</html>

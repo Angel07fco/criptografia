@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c0e2eb;
+}
+
+/* Estilos para el nav */
+nav {
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Efecto de elevación */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los enlaces en el nav */
+nav a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+    color: black;
+    margin-left: 20px;
+}
+
+/* Estilos para los enlaces al pasar el mouse */
+nav a:hover {
+    background-color: #ddd;
+}
+
+.formulario {
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
